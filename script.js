@@ -7,12 +7,12 @@
 // ⚙️ Supabase 配置
 // ═══════════════════════════════════════════════════════════════
 // 请在此处填写你的 Supabase 配置信息
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';      // 例如: 'https://xxxxx.supabase.co'
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // 例如: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
+const SUPABASE_URL = 'https://rtwmedfycgyngzggavuy.supabase.co';      // 例如: 'https://xxxxx.supabase.co'
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ0d21lZGZ5Y2d5bmd6Z2dhdnV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQxNTMzNzMsImV4cCI6MjA4OTcyOTM3M30.Su3iu9SUKPmhRkCIiNuVBRj1gCrQint8BQ31B7uI_CA'; // 例如: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
 
 // 初始化 Supabase 客户端
 let supabase;
-if (SUPABASE_URL !== 'YOUR_SUPABASE_URL') {
+if (true) {
     supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 }
 
